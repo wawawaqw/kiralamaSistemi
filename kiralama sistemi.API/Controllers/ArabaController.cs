@@ -308,7 +308,7 @@ namespace kiralamaSistemi.API.Controllers
         {
             try
             {
-                if (model.Id <= 0||)
+                if (model.Id <= 0)
                 {
                     throw new OzelException(ErrorProvider.NotValidParams);
                 }
